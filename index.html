@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEEP MAKWANA-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+    <div class="noise-overlay"></div>
+    <header class="site-header">
+      <div class="logo">Deep Makwana<span>.</span></div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="ghost-btn">Dark</button>
+    </header>
+
+    <main>
+      <section class="hero" id="about">
+        <div class="hero-content">
+          <p class="eyebrow">Open for opportunities</p>
+          <h1>
+            Hi, I'm <span>Deep Makwana</span> — building premium web experiences
+            for modern brands.
+          </h1>
+          <p class="lede">
+            Passionate computer science student and freelance web developer focused
+            on building fast, clean, and high-performing digital experiences.
+          </p>
+          <p class="lede">
+            From business websites to custom web apps, I focus on usability,
+            responsive design, and measurable outcomes.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#contact">Schedule a Call</a>
+            <a class="ghost-btn" href="CV (Deep Makwana).pdf" target="_blank">Download Resume</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <strong data-live-count="5" data-suffix="+">0</strong>
+              <span>Freelance builds</span>
+            </div>
+            <div>
+              <strong>2</strong>
+              <span>Core craft · Web Development</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card glass">
+          <img
+            src="my-image 2.png"
+            alt="Portrait of Deep Makwana"
+          />
+          <div class="hero-meta">
+            <p>Based in Gujarat, India</p>
+            <p>Web dev · UI/UX · Creative leadership</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">What I'm doing</p>
+          <h2>Building modern digital products</h2>
+          <p>
+            I turn ideas into responsive websites and polished web products.
+          </p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card glass" data-animate>
+            <span class="service-icon">💻</span>
+            <h3>Web Development</h3>
+            <p>
+              Building modern, scalable, fully responsive websites from brand
+              story to checkout.
+            </p>
+          </article>
+          <article class="service-card glass" data-animate>
+            <span class="service-icon">📱</span>
+            <h3>Mobile Apps</h3>
+            <p>
+              Shipping fast, intuitive apps ranging from business dashboards to
+              social experiences.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="resume" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Resume</p>
+          <h2>Experience &amp; Education</h2>
+          <p>
+            A practical journey in computer science, client delivery, and product
+            execution.
+          </p>
+        </div>
+        <div class="resume-columns">
+          <div>
+            <p class="eyebrow">Experience</p>
+            <article class="timeline-card glass" data-animate>
+              <header>
+                <h3>Freelance Web Developer &amp; Designer</h3>
+                <span>2020 — Present</span>
+              </header>
+              <p>
+                Designed and developed multiple client platforms, including my own
+                store website and bespoke web applications.
+              </p>
+              <ul>
+                <li>Expertise in HTML, CSS, JavaScript, and UX systems.</li>
+                <li>Responsive, accessible interfaces with premium polish.</li>
+                <li>Collaborated end-to-end from discovery to launch.</li>
+              </ul>
+            </article>
+          </div>
+          <div>
+            <p class="eyebrow">Education</p>
+            <article class="timeline-card glass" data-animate>
+              <header>
+                <h3>Noble University</h3>
+                <span>2023 — 2026</span>
+              </header>
+              <p>
+                Diploma in Computer Science with deep dives into modern languages,
+                algorithms, and project builds.
+              </p>
+            </article>
+            <article class="timeline-card glass" data-animate>
+              <header>
+                <h3>Podar International School (CBSE)</h3>
+                <span>2016 — 2022</span>
+              </header>
+              <p>
+                Grades 6–10 focused on leadership, collaboration, and creative
+                problem-solving.
+              </p>
+            </article>
+            <article class="timeline-card glass" data-animate>
+              <header>
+                <h3>Sankul (ICSE)</h3>
+                <span>2006 — 2015</span>
+              </header>
+              <p>
+                LKG–5th foundations rooted in curiosity, storytelling, and teamwork.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Projects that deliver outcomes</h2>
+          <p>Transforming ideas into digital experiences that drive results and engage users.</p>
+        </div>
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">
+            <span>All Projects</span>
+            <span class="filter-count">2</span>
+          </button>
+          <button class="filter-btn" data-filter="web">
+            <span>Web</span>
+            <span class="filter-count">2</span>
+          </button>
+        </div>
+        <div class="projects-showcase">
+          <article class="project-featured glass" data-category="web" data-animate>
+            <div class="project-featured-content">
+              <div class="project-badge">
+                <span class="badge-text">Featured</span>
+              </div>
+              <div class="project-meta">
+                <span class="project-number">01</span>
+                <div class="project-category">Web Development</div>
+              </div>
+              <h3 class="project-title">Shyam Sanitary</h3>
+              <p class="project-description">
+                A fully custom e-commerce platform designed with product storytelling at its core. 
+                Features streamlined checkout, CMS integration, and a performance-optimized responsive design.
+              </p>
+              <div class="project-details">
+                <div class="detail-item">
+                  <span class="detail-label">Year</span>
+                  <span class="detail-value">2024</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Type</span>
+                  <span class="detail-value">E-commerce</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Status</span>
+                  <span class="detail-value">Live</span>
+                </div>
+              </div>
+              <div class="project-tech-stack">
+                <span class="tech-item">HTML5</span>
+                <span class="tech-item">CSS3</span>
+                <span class="tech-item">JavaScript</span>
+                <span class="tech-item">Responsive Design</span>
+              </div>
+              <a href="https://shyamsanitary.in" class="project-cta" target="_blank" rel="noopener noreferrer">
+                <span>View Live Project</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M7 17L17 7M7 7h10v10"></path>
+                </svg>
+              </a>
+            </div>
+            <div class="project-featured-image">
+              <div class="image-container">
+                <img src="Projects/Shyam Sanitary.png" alt="Shyam Sanitary Website" />
+                <div class="image-overlay"></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-featured glass" data-category="web" data-animate>
+            <div class="project-featured-content">
+              <div class="project-meta">
+                <span class="project-number">02</span>
+                <div class="project-category">Creative Studio</div>
+              </div>
+              <h3 class="project-title">Spoon &amp; Fork Studio</h3>
+              <p class="project-description">
+                The official studio site capturing our productions, casting calls,
+                and behind-the-scenes journal. A brand-first design language with 
+                submission flows for collaborators.
+              </p>
+              <div class="project-details">
+                <div class="detail-item">
+                  <span class="detail-label">Year</span>
+                  <span class="detail-value">2024</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Type</span>
+                  <span class="detail-value">Creative Website</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Status</span>
+                  <span class="detail-value">Live</span>
+                </div>
+              </div>
+              <div class="project-tech-stack">
+                <span class="tech-item">Brand Design</span>
+                <span class="tech-item">Web Design</span>
+                <span class="tech-item">CMS</span>
+                <span class="tech-item">Creative Direction</span>
+              </div>
+              <a href="https://spoon-fork-studios.vercel.app" class="project-cta" target="_blank" rel="noopener noreferrer">
+                <span>View Live Project</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M7 17L17 7M7 7h10v10"></path>
+                </svg>
+              </a>
+            </div>
+            <div class="project-featured-image">
+              <div class="image-container">
+                <img src="Projects/Spoon & Fork studios.png" alt="Spoon & Fork Studio Website" />
+                <div class="image-overlay"></div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="certificates" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Credentials</p>
+          <h2>Licenses &amp; Certifications</h2>
+        </div>
+        <div class="cert-grid">
+          <article class="cert-card glass" data-animate>
+            <div class="cert-image-wrapper">
+              <img src="Certificates/Internship.png" alt="Internship Certificate" />
+            </div>
+            <div>
+              <p class="cert-issuer">Internship</p>
+              <h3>Internship Certificate</h3>
+            </div>
+            <a href="Certificates/Internship.pdf" class="ghost-btn" target="_blank">View PDF</a>
+          </article>
+          <article class="cert-card glass" data-animate>
+            <div class="cert-image-wrapper">
+              <img src="Certificates/C++.png" alt="C++ Certificate" />
+            </div>
+            <div>
+              <p class="cert-issuer">Programming</p>
+              <h3>C++</h3>
+            </div>
+            <a href="Certificates/c++.pdf" class="ghost-btn" target="_blank">View PDF</a>
+          </article>
+          <article class="cert-card glass" data-animate>
+            <div class="cert-image-wrapper">
+              <img src="Certificates/DSA.png" alt="DSA Certificate" />
+            </div>
+            <div>
+              <p class="cert-issuer">Data Structures</p>
+              <h3>Data Structures &amp; Algorithms</h3>
+            </div>
+            <a href="Certificates/DSA.pdf" class="ghost-btn" target="_blank">View PDF</a>
+          </article>
+          <article class="cert-card glass" data-animate>
+            <div class="cert-image-wrapper">
+              <img src="Certificates/HTML.png" alt="HTML Certificate" />
+            </div>
+            <div>
+              <p class="cert-issuer">Web Development</p>
+              <h3>HTML</h3>
+            </div>
+            <a href="Certificates/HTML.pdf" class="ghost-btn" target="_blank">View PDF</a>
+          </article>
+          <article class="cert-card glass" data-animate>
+            <div class="cert-image-wrapper">
+              <img src="Certificates/JAVA BOOTCAMP.png" alt="Java Bootcamp Certificate" />
+            </div>
+            <div>
+              <p class="cert-issuer">Bootcamp</p>
+              <h3>Java Bootcamp</h3>
+            </div>
+            <a href="Certificates/JAVA BOOTCAMP .pdf" class="ghost-btn" target="_blank">View PDF</a>
+          </article>
+          <article class="cert-card glass" data-animate>
+            <div class="cert-image-wrapper">
+              <img src="Certificates/JAVASCRIPT BOOTCAMP.png" alt="JavaScript Bootcamp Certificate" />
+            </div>
+            <div>
+              <p class="cert-issuer">Bootcamp</p>
+              <h3>JavaScript Bootcamp</h3>
+            </div>
+            <a href="Certificates/JAVASCRIPT BOOTCAMP.pdf" class="ghost-btn" target="_blank">View PDF</a>
+          </article>
+          <article class="cert-card glass" data-animate>
+            <div class="cert-image-wrapper">
+              <img src="Certificates/JAVASCRIPT.png" alt="JavaScript Certificate" />
+            </div>
+            <div>
+              <p class="cert-issuer">Web Development</p>
+              <h3>JavaScript</h3>
+            </div>
+            <a href="Certificates/JavaScript Advanced.pdf" class="ghost-btn" target="_blank">View PDF</a>
+          </article>
+          <article class="cert-card glass" data-animate>
+            <div class="cert-image-wrapper">
+              <img src="Certificates/Java.png" alt="Java Certificate" />
+            </div>
+            <div>
+              <p class="cert-issuer">Programming</p>
+              <h3>Java</h3>
+            </div>
+            <a href="Certificates/Java.pdf" class="ghost-btn" target="_blank">View PDF</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">My Skills</p>
+          <h2>Core tools I use</h2>
+        </div>
+        <div class="skills-grid">
+          <span class="skill-pill" data-animate>Web Design</span>
+          <span class="skill-pill" data-animate>HTML · CSS · JS</span>
+          <span class="skill-pill" data-animate>Responsive Systems</span>
+          <span class="skill-pill" data-animate>Planning &amp; Ops</span>
+          <span class="skill-pill" data-animate>Performance Optimization</span>
+          <span class="skill-pill" data-animate>UI/UX Systems</span>
+          <span class="skill-pill" data-animate>SEO Basics</span>
+          <span class="skill-pill" data-animate>Creative Leadership</span>
+        </div>
+      </section>
+
+
+      <section class="section" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Let's talk</p>
+          <h2>Get in Touch</h2>
+          <p>Building digital experiences · Web Developer</p>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-details glass" data-animate>
+            <h3>Prefer a direct line?</h3>
+            <p><strong>Name:</strong> Deep Makwana</p>
+            <p>
+              <strong>Phone:</strong>
+              <a href="tel:+916355621468">+91 63556 21468</a>
+            </p>
+            <p>
+              Always eager to discuss web builds, product ideas, and collaboration.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2025 Deep Makwana · Spoon &amp; Fork Studio.</p>
+      <ul class="social-list">
+        <li class="social-item">
+          <a
+            href="https://www.facebook.com/profile.php?id=100069736030606"
+            class="social-link"
+          >
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://wa.me/6355621468" class="social-link">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            href="https://www.instagram.com/deep_makwana._.289/"
+            class="social-link"
+          >
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            href="https://www.linkedin.com/in/deep-makwana-b16a52357/?trk=opento_sprofile_goalscard"
+            class="social-link"
+          >
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+

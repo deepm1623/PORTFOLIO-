@@ -152,7 +152,7 @@ You are free to use, modify, and distribute with proper attribution.
 | Profile | Link |
 |---|---|
 | Name | **Deep Makwana** |
-| GitHub | [github.com/your-github-username](https://github.com/your-github-username) |
+| GitHub | [github.com/deepm1623](https://github.com/deepm1623) |
 | LinkedIn | [Deep Makwana](https://www.linkedin.com/in/deep-makwana-b16a52357/?trk=opento_sprofile_goalscard) |
 | Portfolio | [deepmakwana-portfolio.vercel.app](https://deepmakwana-portfolio.vercel.app) |
 
